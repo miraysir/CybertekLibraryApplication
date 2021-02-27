@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: Library login feature
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.541 s <<< FAILURE! - in Library login feature
+Library login feature.Login as a librarian  Time elapsed: 1.541 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mirays-MBP.hsd1.fl.comcast.net', ip: '2601:582:8501:78c0:9b9:88b3:1170:3811%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_231'
+Driver info: driver.version: Driver
+remote stacktrace: 0   chromedriver                        0x000000010491b909 chromedriver + 2533641
+1   chromedriver                        0x0000000104fa5d53 chromedriver + 9391443
+2   chromedriver                        0x00000001046d93c3 chromedriver + 164803
+3   chromedriver                        0x00000001046f8625 chromedriver + 292389
+4   chromedriver                        0x00000001046f69a5 chromedriver + 285093
+5   chromedriver                        0x0000000104729834 chromedriver + 493620
+6   chromedriver                        0x0000000104724b43 chromedriver + 473923
+7   chromedriver                        0x00000001046ff616 chromedriver + 321046
+8   chromedriver                        0x0000000104700587 chromedriver + 324999
+9   chromedriver                        0x00000001048ea7f9 chromedriver + 2332665
+10  chromedriver                        0x00000001048f7963 chromedriver + 2386275
+11  chromedriver                        0x00000001048f745b chromedriver + 2384987
+12  chromedriver                        0x00000001048d15b5 chromedriver + 2229685
+13  chromedriver                        0x00000001048f83bf chromedriver + 2388927
+14  chromedriver                        0x00000001048dfc79 chromedriver + 2288761
+15  chromedriver                        0x000000010490ef69 chromedriver + 2482025
+16  chromedriver                        0x0000000104921103 chromedriver + 2556163
+17  libsystem_pthread.dylib             0x00007fff203ee950 _pthread_start + 224
+18  libsystem_pthread.dylib             0x00007fff203ea47b thread_start + 15
+
+

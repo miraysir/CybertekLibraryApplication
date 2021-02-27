@@ -1,0 +1,181 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-27T04:12:17.736Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.library.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login as a librarian",
+        "description": "",
+        "id": "library-login-feature;login-as-a-librarian",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Mirays-MBP.hsd1.fl.comcast.net\u0027, ip: \u00272601:582:8501:78c0:808e:6a3e:cf04:2595%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: driver.version: Driver\nremote stacktrace: 0   chromedriver                        0x00000001045a2909 chromedriver + 2533641\n1   chromedriver                        0x0000000104c2cd53 chromedriver + 9391443\n2   chromedriver                        0x00000001043603c3 chromedriver + 164803\n3   chromedriver                        0x000000010437f625 chromedriver + 292389\n4   chromedriver                        0x000000010437d9a5 chromedriver + 285093\n5   chromedriver                        0x00000001043b0834 chromedriver + 493620\n6   chromedriver                        0x00000001043abb43 chromedriver + 473923\n7   chromedriver                        0x0000000104386616 chromedriver + 321046\n8   chromedriver                        0x0000000104387587 chromedriver + 324999\n9   chromedriver                        0x00000001045717f9 chromedriver + 2332665\n10  chromedriver                        0x000000010457e963 chromedriver + 2386275\n11  chromedriver                        0x000000010457e45b chromedriver + 2384987\n12  chromedriver                        0x00000001045585b5 chromedriver + 2229685\n13  chromedriver                        0x000000010457f3bf chromedriver + 2388927\n14  chromedriver                        0x0000000104566c79 chromedriver + 2288761\n15  chromedriver                        0x0000000104595f69 chromedriver + 2482025\n16  chromedriver                        0x00000001045a8103 chromedriver + 2556163\n17  libsystem_pthread.dylib             0x00007fff203ee950 _pthread_start + 224\n18  libsystem_pthread.dylib             0x00007fff203ea47b thread_start + 15\n\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat com.cybertek.library.utilities.Driver.getDriver(Driver.java:27)\n\tat com.cybertek.library.step_definitions.Hooks.tearDownScenario(Hooks.java:19)\n",
+              "duration": 291000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.cybertek.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Mirays-MBP.hsd1.fl.comcast.net\u0027, ip: \u00272601:582:8501:78c0:808e:6a3e:cf04:2595%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: driver.version: Driver\nremote stacktrace: 0   chromedriver                        0x0000000105210909 chromedriver + 2533641\n1   chromedriver                        0x000000010589ad53 chromedriver + 9391443\n2   chromedriver                        0x0000000104fce3c3 chromedriver + 164803\n3   chromedriver                        0x0000000104fed625 chromedriver + 292389\n4   chromedriver                        0x0000000104feb9a5 chromedriver + 285093\n5   chromedriver                        0x000000010501e834 chromedriver + 493620\n6   chromedriver                        0x0000000105019b43 chromedriver + 473923\n7   chromedriver                        0x0000000104ff4616 chromedriver + 321046\n8   chromedriver                        0x0000000104ff5587 chromedriver + 324999\n9   chromedriver                        0x00000001051df7f9 chromedriver + 2332665\n10  chromedriver                        0x00000001051ec963 chromedriver + 2386275\n11  chromedriver                        0x00000001051ec45b chromedriver + 2384987\n12  chromedriver                        0x00000001051c65b5 chromedriver + 2229685\n13  chromedriver                        0x00000001051ed3bf chromedriver + 2388927\n14  chromedriver                        0x00000001051d4c79 chromedriver + 2288761\n15  chromedriver                        0x0000000105203f69 chromedriver + 2482025\n16  chromedriver                        0x0000000105216103 chromedriver + 2556163\n17  libsystem_pthread.dylib             0x00007fff203ee950 _pthread_start + 224\n18  libsystem_pthread.dylib             0x00007fff203ea47b thread_start + 15\n\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat com.cybertek.library.utilities.Driver.getDriver(Driver.java:27)\n\tat com.cybertek.library.step_definitions.LibraryLogin_StepDefinitions.user_on_the_login_page(LibraryLogin_StepDefinitions.java:13)\n\tat ✽.user on the login page(file:///Users/miraysir/IdeaProjects/CybertekLibraryApplication/src/test/resources/features/login.feature:6)\n",
+              "duration": 6581000000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user on the login page",
+            "match": {
+              "location": "com.cybertek.library.step_definitions.LibraryLogin_StepDefinitions.user_on_the_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.cybertek.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user enters username",
+            "match": {
+              "location": "com.cybertek.library.step_definitions.LibraryLogin_StepDefinitions.user_enters_username()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.cybertek.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.cybertek.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user enters password",
+            "match": {
+              "location": "com.cybertek.library.step_definitions.LibraryLogin_StepDefinitions.user_enters_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.cybertek.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.cybertek.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user should see dashboard",
+            "match": {
+              "location": "com.cybertek.library.step_definitions.LibraryLogin_StepDefinitions.user_should_see_dashboard()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.cybertek.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@librarian"
+          }
+        ]
+      }
+    ],
+    "name": "Library login feature",
+    "description": "",
+    "id": "library-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
